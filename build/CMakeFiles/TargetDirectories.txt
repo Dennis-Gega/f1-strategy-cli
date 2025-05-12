@@ -1,0 +1,3 @@
+/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles/race_sim.dir
+/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles/edit_cache.dir
+/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles/rebuild_cache.dir
