@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/dennisgega/code/projects/f1_cli/build/cmake_install.cmake"
+		"/Users/dennisgega/code/projects/f1-strategy-cli/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

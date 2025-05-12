@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/race_sim.dir/src/Driver.cpp.o.d"
   "CMakeFiles/race_sim.dir/src/Strategy.cpp.o"
   "CMakeFiles/race_sim.dir/src/Strategy.cpp.o.d"
+  "CMakeFiles/race_sim.dir/src/Tire.cpp.o"
+  "CMakeFiles/race_sim.dir/src/Tire.cpp.o.d"
   "CMakeFiles/race_sim.dir/src/Track.cpp.o"
   "CMakeFiles/race_sim.dir/src/Track.cpp.o.d"
   "CMakeFiles/race_sim.dir/src/main.cpp.o"
