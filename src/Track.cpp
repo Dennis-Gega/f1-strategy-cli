@@ -1,7 +1,7 @@
 #include "Track.h"
 
 Track::Track(TrackID trackID) {
-  TrackID = trackID;
+  id = trackID;
   switch (trackID) {
     case TrackID::Melbourne:
       name = "Melbourne";
