@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dennisgega/code/projects/f1_cli
+CMAKE_SOURCE_DIR = /Users/dennisgega/code/projects/f1-strategy-cli
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dennisgega/code/projects/f1_cli/build
+CMAKE_BINARY_DIR = /Users/dennisgega/code/projects/f1-strategy-cli/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/race_sim.dir/depend.make
@@ -73,80 +73,95 @@ CMakeFiles/race_sim.dir/codegen:
 .PHONY : CMakeFiles/race_sim.dir/codegen
 
 CMakeFiles/race_sim.dir/src/Car.cpp.o: CMakeFiles/race_sim.dir/flags.make
-CMakeFiles/race_sim.dir/src/Car.cpp.o: /Users/dennisgega/code/projects/f1_cli/src/Car.cpp
+CMakeFiles/race_sim.dir/src/Car.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/Car.cpp
 CMakeFiles/race_sim.dir/src/Car.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/race_sim.dir/src/Car.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Car.cpp.o -MF CMakeFiles/race_sim.dir/src/Car.cpp.o.d -o CMakeFiles/race_sim.dir/src/Car.cpp.o -c /Users/dennisgega/code/projects/f1_cli/src/Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/race_sim.dir/src/Car.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Car.cpp.o -MF CMakeFiles/race_sim.dir/src/Car.cpp.o.d -o CMakeFiles/race_sim.dir/src/Car.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/Car.cpp
 
 CMakeFiles/race_sim.dir/src/Car.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/Car.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1_cli/src/Car.cpp > CMakeFiles/race_sim.dir/src/Car.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/Car.cpp > CMakeFiles/race_sim.dir/src/Car.cpp.i
 
 CMakeFiles/race_sim.dir/src/Car.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/Car.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1_cli/src/Car.cpp -o CMakeFiles/race_sim.dir/src/Car.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/Car.cpp -o CMakeFiles/race_sim.dir/src/Car.cpp.s
 
 CMakeFiles/race_sim.dir/src/Driver.cpp.o: CMakeFiles/race_sim.dir/flags.make
-CMakeFiles/race_sim.dir/src/Driver.cpp.o: /Users/dennisgega/code/projects/f1_cli/src/Driver.cpp
+CMakeFiles/race_sim.dir/src/Driver.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/Driver.cpp
 CMakeFiles/race_sim.dir/src/Driver.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/race_sim.dir/src/Driver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Driver.cpp.o -MF CMakeFiles/race_sim.dir/src/Driver.cpp.o.d -o CMakeFiles/race_sim.dir/src/Driver.cpp.o -c /Users/dennisgega/code/projects/f1_cli/src/Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/race_sim.dir/src/Driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Driver.cpp.o -MF CMakeFiles/race_sim.dir/src/Driver.cpp.o.d -o CMakeFiles/race_sim.dir/src/Driver.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/Driver.cpp
 
 CMakeFiles/race_sim.dir/src/Driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/Driver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1_cli/src/Driver.cpp > CMakeFiles/race_sim.dir/src/Driver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/Driver.cpp > CMakeFiles/race_sim.dir/src/Driver.cpp.i
 
 CMakeFiles/race_sim.dir/src/Driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/Driver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1_cli/src/Driver.cpp -o CMakeFiles/race_sim.dir/src/Driver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/Driver.cpp -o CMakeFiles/race_sim.dir/src/Driver.cpp.s
 
 CMakeFiles/race_sim.dir/src/Strategy.cpp.o: CMakeFiles/race_sim.dir/flags.make
-CMakeFiles/race_sim.dir/src/Strategy.cpp.o: /Users/dennisgega/code/projects/f1_cli/src/Strategy.cpp
+CMakeFiles/race_sim.dir/src/Strategy.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/Strategy.cpp
 CMakeFiles/race_sim.dir/src/Strategy.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/race_sim.dir/src/Strategy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Strategy.cpp.o -MF CMakeFiles/race_sim.dir/src/Strategy.cpp.o.d -o CMakeFiles/race_sim.dir/src/Strategy.cpp.o -c /Users/dennisgega/code/projects/f1_cli/src/Strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/race_sim.dir/src/Strategy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Strategy.cpp.o -MF CMakeFiles/race_sim.dir/src/Strategy.cpp.o.d -o CMakeFiles/race_sim.dir/src/Strategy.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/Strategy.cpp
 
 CMakeFiles/race_sim.dir/src/Strategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/Strategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1_cli/src/Strategy.cpp > CMakeFiles/race_sim.dir/src/Strategy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/Strategy.cpp > CMakeFiles/race_sim.dir/src/Strategy.cpp.i
 
 CMakeFiles/race_sim.dir/src/Strategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/Strategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1_cli/src/Strategy.cpp -o CMakeFiles/race_sim.dir/src/Strategy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/Strategy.cpp -o CMakeFiles/race_sim.dir/src/Strategy.cpp.s
+
+CMakeFiles/race_sim.dir/src/Tire.cpp.o: CMakeFiles/race_sim.dir/flags.make
+CMakeFiles/race_sim.dir/src/Tire.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/Tire.cpp
+CMakeFiles/race_sim.dir/src/Tire.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/race_sim.dir/src/Tire.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Tire.cpp.o -MF CMakeFiles/race_sim.dir/src/Tire.cpp.o.d -o CMakeFiles/race_sim.dir/src/Tire.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/Tire.cpp
+
+CMakeFiles/race_sim.dir/src/Tire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/Tire.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/Tire.cpp > CMakeFiles/race_sim.dir/src/Tire.cpp.i
+
+CMakeFiles/race_sim.dir/src/Tire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/Tire.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/Tire.cpp -o CMakeFiles/race_sim.dir/src/Tire.cpp.s
 
 CMakeFiles/race_sim.dir/src/Track.cpp.o: CMakeFiles/race_sim.dir/flags.make
-CMakeFiles/race_sim.dir/src/Track.cpp.o: /Users/dennisgega/code/projects/f1_cli/src/Track.cpp
+CMakeFiles/race_sim.dir/src/Track.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/Track.cpp
 CMakeFiles/race_sim.dir/src/Track.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/race_sim.dir/src/Track.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Track.cpp.o -MF CMakeFiles/race_sim.dir/src/Track.cpp.o.d -o CMakeFiles/race_sim.dir/src/Track.cpp.o -c /Users/dennisgega/code/projects/f1_cli/src/Track.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/race_sim.dir/src/Track.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/Track.cpp.o -MF CMakeFiles/race_sim.dir/src/Track.cpp.o.d -o CMakeFiles/race_sim.dir/src/Track.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/Track.cpp
 
 CMakeFiles/race_sim.dir/src/Track.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/Track.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1_cli/src/Track.cpp > CMakeFiles/race_sim.dir/src/Track.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/Track.cpp > CMakeFiles/race_sim.dir/src/Track.cpp.i
 
 CMakeFiles/race_sim.dir/src/Track.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/Track.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1_cli/src/Track.cpp -o CMakeFiles/race_sim.dir/src/Track.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/Track.cpp -o CMakeFiles/race_sim.dir/src/Track.cpp.s
 
 CMakeFiles/race_sim.dir/src/main.cpp.o: CMakeFiles/race_sim.dir/flags.make
-CMakeFiles/race_sim.dir/src/main.cpp.o: /Users/dennisgega/code/projects/f1_cli/src/main.cpp
+CMakeFiles/race_sim.dir/src/main.cpp.o: /Users/dennisgega/code/projects/f1-strategy-cli/src/main.cpp
 CMakeFiles/race_sim.dir/src/main.cpp.o: CMakeFiles/race_sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/race_sim.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/main.cpp.o -MF CMakeFiles/race_sim.dir/src/main.cpp.o.d -o CMakeFiles/race_sim.dir/src/main.cpp.o -c /Users/dennisgega/code/projects/f1_cli/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/race_sim.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/race_sim.dir/src/main.cpp.o -MF CMakeFiles/race_sim.dir/src/main.cpp.o.d -o CMakeFiles/race_sim.dir/src/main.cpp.o -c /Users/dennisgega/code/projects/f1-strategy-cli/src/main.cpp
 
 CMakeFiles/race_sim.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/race_sim.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1_cli/src/main.cpp > CMakeFiles/race_sim.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dennisgega/code/projects/f1-strategy-cli/src/main.cpp > CMakeFiles/race_sim.dir/src/main.cpp.i
 
 CMakeFiles/race_sim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/race_sim.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1_cli/src/main.cpp -o CMakeFiles/race_sim.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dennisgega/code/projects/f1-strategy-cli/src/main.cpp -o CMakeFiles/race_sim.dir/src/main.cpp.s
 
 # Object files for target race_sim
 race_sim_OBJECTS = \
 "CMakeFiles/race_sim.dir/src/Car.cpp.o" \
 "CMakeFiles/race_sim.dir/src/Driver.cpp.o" \
 "CMakeFiles/race_sim.dir/src/Strategy.cpp.o" \
+"CMakeFiles/race_sim.dir/src/Tire.cpp.o" \
 "CMakeFiles/race_sim.dir/src/Track.cpp.o" \
 "CMakeFiles/race_sim.dir/src/main.cpp.o"
 
@@ -156,11 +171,12 @@ race_sim_EXTERNAL_OBJECTS =
 race_sim: CMakeFiles/race_sim.dir/src/Car.cpp.o
 race_sim: CMakeFiles/race_sim.dir/src/Driver.cpp.o
 race_sim: CMakeFiles/race_sim.dir/src/Strategy.cpp.o
+race_sim: CMakeFiles/race_sim.dir/src/Tire.cpp.o
 race_sim: CMakeFiles/race_sim.dir/src/Track.cpp.o
 race_sim: CMakeFiles/race_sim.dir/src/main.cpp.o
 race_sim: CMakeFiles/race_sim.dir/build.make
 race_sim: CMakeFiles/race_sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dennisgega/code/projects/f1_cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable race_sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable race_sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/race_sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +188,6 @@ CMakeFiles/race_sim.dir/clean:
 .PHONY : CMakeFiles/race_sim.dir/clean
 
 CMakeFiles/race_sim.dir/depend:
-	cd /Users/dennisgega/code/projects/f1_cli/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dennisgega/code/projects/f1_cli /Users/dennisgega/code/projects/f1_cli /Users/dennisgega/code/projects/f1_cli/build /Users/dennisgega/code/projects/f1_cli/build /Users/dennisgega/code/projects/f1_cli/build/CMakeFiles/race_sim.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/dennisgega/code/projects/f1-strategy-cli/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dennisgega/code/projects/f1-strategy-cli /Users/dennisgega/code/projects/f1-strategy-cli /Users/dennisgega/code/projects/f1-strategy-cli/build /Users/dennisgega/code/projects/f1-strategy-cli/build /Users/dennisgega/code/projects/f1-strategy-cli/build/CMakeFiles/race_sim.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/race_sim.dir/depend
 

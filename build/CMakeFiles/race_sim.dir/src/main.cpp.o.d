@@ -1,6 +1,7 @@
 CMakeFiles/race_sim.dir/src/main.cpp.o: \
-  /Users/dennisgega/code/projects/f1_cli/src/main.cpp \
-  /Users/dennisgega/code/projects/f1_cli/include/Track.h \
+  /Users/dennisgega/code/projects/f1-strategy-cli/src/main.cpp \
+  /Users/dennisgega/code/projects/f1-strategy-cli/include/Track.h \
+  /Users/dennisgega/code/projects/f1-strategy-cli/include/Tire.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -793,4 +794,5 @@ CMakeFiles/race_sim.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip
