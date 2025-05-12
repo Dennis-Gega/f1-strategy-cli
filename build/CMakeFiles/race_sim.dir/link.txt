@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/race_sim.dir/src/Car.cpp.o CMakeFiles/race_sim.dir/src/Driver.cpp.o CMakeFiles/race_sim.dir/src/Strategy.cpp.o CMakeFiles/race_sim.dir/src/Track.cpp.o CMakeFiles/race_sim.dir/src/main.cpp.o -o race_sim
