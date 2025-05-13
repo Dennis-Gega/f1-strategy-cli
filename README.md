@@ -1,1 +1,1 @@
-# F1_cli strategy
+# f1-strategy-cli
